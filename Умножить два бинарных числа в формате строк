@@ -1,0 +1,10 @@
+firstnumber = input("Введите первое число: ")
+secondnumber = input("Введите второе число: ")
+ 
+firstnumber = str(firstnumber)
+secondnumber = str(secondnumber)
+ 
+Multiplication = int(firstnumber, 2) * int(secondnumber, 2)
+binaryMul = bin(Multiplication)
+ 
+print("\nResult = " + binaryMul)
